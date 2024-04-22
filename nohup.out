@@ -1,0 +1,448 @@
+INFO:     Will watch for changes in these directories: ['/home/ubuntu/invoice-parser-app']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [1728] using StatReload
+INFO:     Started server process [1730]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     122.164.85.195:28448 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:28448 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1730]
+INFO:     Stopping reloader process [1728]
+INFO:     Will watch for changes in these directories: ['/home/ubuntu/invoice-parser-app']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [1757] using StatReload
+INFO:     Started server process [1759]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     122.164.85.195:23864 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     94.102.49.193:41158 - "GET / HTTP/1.1" 404 Not Found
+INFO:     94.102.49.193:41594 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     106.198.39.220:6545 - "GET /docs HTTP/1.1" 200 OK
+INFO:     106.198.39.220:6545 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     106.198.39.220:6553 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     106.198.39.220:6565 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     106.198.39.220:6568 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     106.198.39.220:6699 - "GET /docs HTTP/1.1" 200 OK
+INFO:     106.198.39.220:6699 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     103.172.56.42:54194 - "GET /docs HTTP/1.1" 200 OK
+INFO:     103.172.56.42:54194 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     106.198.39.220:6716 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     103.172.56.42:54871 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     64.62.197.120:31679 - "GET / HTTP/1.1" 404 Not Found
+INFO:     64.62.197.116:42273 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     64.62.197.118:58597 - "GET http%3A//api.ipify.org/?format=json HTTP/1.1" 404 Not Found
+INFO:     64.62.197.111:54975 - "CONNECT www.shadowserver.org%3A443 HTTP/1.1" 404 Not Found
+INFO:     103.172.56.42:58807 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     103.172.56.42:59209 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     103.172.56.42:60850 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     103.172.56.42:61031 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     103.172.56.42:63018 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     103.172.56.42:63160 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     103.172.56.42:63203 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     103.172.56.42:63992 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     103.172.56.42:64354 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     Will watch for changes in these directories: ['/home/ubuntu/invoice-parser-app']
+ERROR:    [Errno 98] Address already in use
+INFO:     Will watch for changes in these directories: ['/home/ubuntu/invoice-parser-app']
+ERROR:    [Errno 98] Address already in use
+INFO:     Will watch for changes in these directories: ['/home/ubuntu/invoice-parser-app']
+ERROR:    [Errno 98] Address already in use
+INFO:     Stopping reloader process [1757]
+INFO:     Will watch for changes in these directories: ['/home/ubuntu/invoice-parser-app']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [1097] using StatReload
+INFO:     Started server process [1099]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     122.164.84.178:4482 - "GET / HTTP/1.1" 404 Not Found
+INFO:     122.164.84.178:4482 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     122.164.84.178:4482 - "GET /docs HTTP/1.1" 200 OK
+INFO:     122.164.84.178:4482 - "GET /openapi.json HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     106.198.39.220:18989 - "GET /parse_invoice_ocr/ HTTP/1.1" 405 Method Not Allowed
+INFO:     106.198.39.220:18989 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     106.198.39.220:18990 - "GET /docs HTTP/1.1" 200 OK
+INFO:     106.198.39.220:18990 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     122.164.84.178:25248 - "GET /docs HTTP/1.1" 200 OK
+INFO:     122.164.84.178:25248 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     103.172.56.42:50860 - "GET /docs HTTP/1.1" 200 OK
+INFO:     103.172.56.42:50860 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     103.172.56.42:50906 - "GET /docs HTTP/1.1" 200 OK
+INFO:     103.172.56.42:50906 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     103.172.56.42:50910 - "POST /parse_invoice_ocr/ HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/middleware/cors.py", line 91, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/middleware/cors.py", line 146, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/routing.py", line 758, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/routing.py", line 778, in app
+    await route.handle(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/routing.py", line 299, in handle
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/routing.py", line 79, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/routing.py", line 74, in app
+    response = await func(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/home/ubuntu/invoice-parser-app/main.py", line 180, in parse_invoice_ocr
+    invoice_info = json.loads(response_text[start_index:end_index])
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 97 column 6 (char 2203)
+INFO:     103.172.56.42:51176 - "POST /parse_invoice_ocr/ HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/middleware/cors.py", line 91, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/middleware/cors.py", line 146, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/routing.py", line 758, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/routing.py", line 778, in app
+    await route.handle(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/routing.py", line 299, in handle
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/routing.py", line 79, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/routing.py", line 74, in app
+    response = await func(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/home/ubuntu/invoice-parser-app/main.py", line 180, in parse_invoice_ocr
+    invoice_info = json.loads(response_text[start_index:end_index])
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 97 column 6 (char 2203)
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     106.198.39.220:4817 - "GET /docs HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     106.198.39.220:4817 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     103.172.56.42:55110 - "POST /parse_invoice_ocr/ HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/middleware/cors.py", line 91, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/middleware/cors.py", line 146, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/routing.py", line 758, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/routing.py", line 778, in app
+    await route.handle(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/routing.py", line 299, in handle
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/routing.py", line 79, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/routing.py", line 74, in app
+    response = await func(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/home/ubuntu/invoice-parser-app/main.py", line 180, in parse_invoice_ocr
+    invoice_info = json.loads(response_text[start_index:end_index])
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 97 column 6 (char 2203)
+INFO:     122.164.84.178:14435 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     122.164.84.178:14435 - "GET /docs HTTP/1.1" 200 OK
+INFO:     122.164.84.178:14435 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     122.164.85.195:9217 - "GET /docs HTTP/1.1" 200 OK
+INFO:     122.164.85.195:9217 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     122.164.85.195:24400 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     122.164.85.195:5203 - "GET /docs HTTP/1.1" 200 OK
+INFO:     122.164.85.195:5203 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     80.75.212.75:48280 - "CONNECT www.google.com%3A443 HTTP/1.1" 404 Not Found
+INFO:     154.212.141.173:45798 - "GET / HTTP/1.1" 404 Not Found
+INFO:     154.212.141.234:52882 - "GET / HTTP/1.1" 404 Not Found
+INFO:     154.212.141.234:53012 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     35.225.206.202:52802 - "GET /.aws/ HTTP/1.1" 404 Not Found
+INFO:     80.75.212.75:39406 - "CONNECT www.google.com%3A443 HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     65.49.1.73:39913 - "GET / HTTP/1.1" 404 Not Found
+INFO:     65.49.1.76:63143 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     65.49.1.69:27939 - "GET http%3A//api.ipify.org/?format=json HTTP/1.1" 404 Not Found
+INFO:     65.49.1.78:54797 - "CONNECT www.shadowserver.org%3A443 HTTP/1.1" 404 Not Found
+INFO:     206.168.34.190:53324 - "GET / HTTP/1.1" 404 Not Found
+INFO:     206.168.34.190:37770 - "GET / HTTP/1.1" 404 Not Found
+INFO:     206.168.34.190:43962 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     198.235.24.8:59096 - "GET / HTTP/1.1" 404 Not Found
+INFO:     205.210.31.71:65408 - "GET / HTTP/1.1" 404 Not Found
+INFO:     198.199.117.80:34926 - "GET / HTTP/1.1" 404 Not Found
+INFO:     122.164.85.195:6494 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:32407 - "GET /docs HTTP/1.1" 200 OK
+INFO:     122.164.85.195:32407 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     122.164.85.195:4643 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:9724 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:27831 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:16114 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:26300 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:4337 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:12546 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:14240 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:15990 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:5333 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:14002 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:6869 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:15541 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:22967 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:25717 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:21942 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:25149 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:13795 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:30145 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:10249 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:18545 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:3552 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:28906 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:22711 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:15919 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:23924 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:25600 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:29085 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:12291 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:31277 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:25675 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:28531 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:6184 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:13716 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:5093 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:20387 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:4671 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:4012 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:23260 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:23832 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:18821 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:13472 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     122.164.85.195:9157 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     205.210.31.60:59338 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.154.54:40330 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.154.54:42770 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.154.54:42786 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     205.210.31.27:63920 - "GET / HTTP/1.1" 404 Not Found
+INFO:     68.183.81.241:41168 - "POST /wp-login.php HTTP/1.1" 404 Not Found
+INFO:     68.183.81.241:41246 - "POST /wordpress/wp-login.php HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     39.106.76.167:44878 - "GET /.env HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     157.51.179.221:54768 - "GET /docs HTTP/1.1" 200 OK
+INFO:     157.51.179.221:54768 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     106.198.9.162:17354 - "GET /docs HTTP/1.1" 200 OK
+INFO:     106.198.9.162:17354 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     Will watch for changes in these directories: ['/home/ubuntu/invoice-parser-app']
+ERROR:    [Errno 98] Address already in use
+INFO:     Stopping reloader process [1097]
+INFO:     Will watch for changes in these directories: ['/home/ubuntu/invoice-parser-app']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [4797] using statreload
+Process SpawnProcess-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/lib/python3/dist-packages/uvicorn/subprocess.py", line 76, in subprocess_started
+    target(sockets=sockets)
+  File "/usr/lib/python3/dist-packages/uvicorn/server.py", line 68, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/usr/lib/python3/dist-packages/uvicorn/server.py", line 76, in serve
+    config.load()
+  File "/usr/lib/python3/dist-packages/uvicorn/config.py", line 448, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/usr/lib/python3/dist-packages/uvicorn/importer.py", line 24, in import_from_string
+    raise exc from None
+  File "/usr/lib/python3/dist-packages/uvicorn/importer.py", line 21, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/invoice-parser-app/./main.py", line 1, in <module>
+    from fastapi import FastAPI, File, UploadFile
+ModuleNotFoundError: No module named 'fastapi'
+INFO:     Stopping reloader process [4797]
+INFO:     Will watch for changes in these directories: ['/home/ubuntu/invoice-parser-app']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [4816] using StatReload
+INFO:     Started server process [4818]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     122.164.85.195:29563 - "GET /docs HTTP/1.1" 200 OK
+INFO:     122.164.85.195:29563 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     157.51.179.221:55221 - "GET /docs HTTP/1.1" 200 OK
+INFO:     157.51.179.221:55221 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     157.51.179.221:55222 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     157.51.179.221:55493 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     157.51.179.221:55519 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     157.51.179.221:55590 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     157.51.179.221:55627 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     157.51.179.221:55680 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     157.51.179.221:55726 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     157.51.179.221:55798 - "POST /parse_invoice_ocr/ HTTP/1.1" 200 OK
+INFO:     157.51.179.221:55799 - "POST /parse_invoice_ocr/ HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 412, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/middleware/cors.py", line 91, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/middleware/cors.py", line 146, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/routing.py", line 758, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/routing.py", line 778, in app
+    await route.handle(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/routing.py", line 299, in handle
+    await self.app(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/routing.py", line 79, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/starlette/routing.py", line 74, in app
+    response = await func(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/home/ubuntu/invoice-parser-app/main.py", line 180, in parse_invoice_ocr
+    invoice_info = json.loads(response_text[start_index:end_index])
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 104 column 6 (char 2262)
+INFO:     106.198.9.162:17324 - "GET /docs HTTP/1.1" 200 OK
+INFO:     106.198.9.162:17325 - "GET /docs HTTP/1.1" 200 OK
+INFO:     106.198.9.162:17325 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     122.164.85.195:9540 - "GET /docs HTTP/1.1" 200 OK
+INFO:     122.164.85.195:9540 - "GET /openapi.json HTTP/1.1" 200 OK
