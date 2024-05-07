@@ -120,8 +120,8 @@ async def parse_invoice( request:Request,
         image = Image.open(file.file)
 
     response = model.generate_content([f"""Extract specific information from the invoice image attached and give the response as a JSON. Specific information needed in json response are: {BILL_ITEMS}. Make sure the response json only has the keys that are needed and nothing else. 
-    To remember :For total tax, there might be multiple taxes in a single invoices for example CGST and SGST, remember to add them for actual output of total taxes.
-    For Invoice number, it can also contain characters for example, 001, KJL0901, JK-098-VGH all are valid invoice/bill numbers. 
+    To remember :For total tax, there might be multiple taxes in a single invoices for example CGST , SGST, remember to add them for actual output of total taxes.
+    For Invoice number, it can also contain characters for example, 001, KJL0901, JK-098-VGH all are valid invoice numbers. 
     For buyer_address and seller_address, Make sure only to return the full address and strictly do not add details like pan number, phone number, and gst number in the result. Also check if a valid address is given if not return null.
     For buyer_phone_number and seller_phone_number, Most of the times it is linked with their respective addresses.
     """,image], safety_settings=safety_settings, generation_config=generation_config)     
@@ -132,7 +132,7 @@ async def parse_invoice( request:Request,
     return invoice_info
 
 import pytesseract
-pytesseract.pytesseract.tesseract_cmd = '/usr/bin/tesseract'
+pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
 
 def extract_text_from_image(image) -> list:
     text = pytesseract.image_to_string(image)
@@ -156,16 +156,19 @@ async def parse_invoice_ocr( request:Request,
     # Generate content using generative model
     response = model.generate_content([
         f"""Extract specific information from the invoice image attached and give the response as a JSON. Specific information needed in json response are: {BILL_ITEMS}.
-        {text_list} are the list original text in the image extracted through ocr so that you will not mke mistakes in responding with random text which are not in the image, and I want you to match your result with the list and provide the response with corrected spellings words.
+        {text_list} are the list original text in the image extracted through ocr, so that you will not make any mistakes in responding with random text which are not in the image, and I want you to match your result with the list and provide the response with corrected spellings words and corrected numbers.
         The response should be a JSON consists of {BILL_ITEMS}.
-        For total_tax, make sure to dd the taxes if there re multiple taxes like and sgst, cgst
-       For buyer_address and seller_address, Make sure only to return the full address and strictly do not add details like pan number, phone number, and gst number in the result. Also check if a valid address is given if not return null.
+        For invoice_amount, make sure the total invoice amount, including any taxes or additional charges. if not, give the total invoice amount. Ensure accuracy and correct any errors in numerical values.
+        For invoice_date, make sure the section include the date of the invoice. Ensure correctness and rectify any errors in date format or textual representation.
+        For total_tax, make sure to add the taxes if there are multiple taxes like and sgst, cgst and igst.
+        For buyer_address and seller_address, Make sure only to return the full address and strictly do not add details like pan number, phone number, and gst number in the result. Also check if a valid address is given if not return null.
         For buyer_phone_number and seller_phone_number, Most of the times it is linked with their respective addresses.
         """, image
     ], safety_settings=safety_settings, generation_config=generation_config)
 
     # Extracting JSON from the response
-    response_text = response.text 
+    response_text = response.text
+    print(response_text) 
     start_index = response_text.find('{')
     end_index = response_text.rfind('}') + 1
     invoice_info = json.loads(response_text[start_index:end_index])
