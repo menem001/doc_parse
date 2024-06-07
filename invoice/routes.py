@@ -119,11 +119,20 @@ async def parse_invoice( request:Request,
     else:
         image = Image.open(file.file)
 
-    response = model.generate_content([f"""Extract specific information from the invoice image attached and give the response as a JSON. Specific information needed in json response are: {BILL_ITEMS}. Make sure the response json only has the keys that are needed and nothing else. 
-    To remember :For total tax, there might be multiple taxes in a single invoices for example CGST , SGST, remember to add them for actual output of total taxes.
-    For Invoice number, it can also contain characters for example, 001, KJL0901, JK-098-VGH all are valid invoice numbers. 
+    text_list = extract_text_from_image(image)
+
+    response = model.generate_content([f"""Extract specific information from the invoice image attached and give the response as a JSON. Specific information needed in json response are: {BILL_ITEMS}.
+        {text_list} are the list original text in the image extracted through ocr so that you will not mke mistakes in responding with random text which are not in the image, and I want you to match your result with the list and provide the response with corrected spellings words.
+        The response should be a JSON consists of {BILL_ITEMS}.
+    To remember :
+    For Invoice number, it can also contain alphanumerice characters for example, 001, KJL0901, JK-098-VGH all are valid invoice numbers. 
     For buyer_address and seller_address, Make sure only to return the full address and strictly do not add details like pan number, phone number, and gst number in the result. Also check if a valid address is given if not return null.
     For buyer_phone_number and seller_phone_number, Most of the times it is linked with their respective addresses.
+    For Total Tax Identification:
+      Look for terms indicating tax, like "Tax," "VAT," "GST," etc. (replace with relevant terms for your region).
+      If CGST and SGST values are found, extract them as separate fields with labels like "CGST" and "SGST" in the JSON response.
+      If only a single tax value is found, extract it as "Total Tax" in the JSON response (but indicate low confidence for this value).
+      Tax Confidence: Include a confidence score for each extracted tax value (CGST, SGST, or Total Tax).
     """,image], safety_settings=safety_settings, generation_config=generation_config)     
     response_text=response.text 
     start_index = response_text.find('{')
