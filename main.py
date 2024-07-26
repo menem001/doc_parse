@@ -4,8 +4,8 @@ import os,json
 from fastapi.middleware.cors import CORSMiddleware
 from whitebook import routes as open_ai_route
 
-app = FastAPI(title='Invoice_Parser', version='1.0.0')
-app.include_router(open_ai_route.router, prefix="/api/V1/invoice_parser")
+app = FastAPI(title='Whitebook_Parser', version='1.0.0')
+app.include_router(open_ai_route.router, prefix="/api/V1/whitebook_parser")
 
 app.add_middleware(
     CORSMiddleware,

@@ -117,7 +117,7 @@ async def parse_user_vehicle_info(file: UploadFile = File(...),):
     The text extracted via OCR is: {text_list}
     Please extract and verify the following information:
     {BILL_ITEMSS}
-    Seating Capacity:Integer
+    For Seating capacity, it can also contain numerical characters for example, 01 or 1 all are valid seat capacity. 
     Provide the response as a JSON object with these fields.
     If any information is missing or cannot be verified, set the value to null.
     example:
@@ -132,58 +132,58 @@ async def parse_user_vehicle_info(file: UploadFile = File(...),):
     return user_vehicle_info
 
 
-@router.post("/parse_invoice_ocr/")
-async def parse_invoice_ocr(file: UploadFile = File(...)):
-    file_bytes = await file.read()
-    file_base64 = base64.b64encode(file_bytes).decode('utf-8')
+# @router.post("/parse_invoice_ocr/")
+# async def parse_invoice_ocr(file: UploadFile = File(...)):
+#     file_bytes = await file.read()
+#     file_base64 = base64.b64encode(file_bytes).decode('utf-8')
 
-    try:
-        response = model.generate_content([
-            f"""
-            You are an expert in extracting and verifying information from vehicle documents.
-            The document content (in base64) is: {file_base64}
-            The document may be unclear or noisy. Please handle this accordingly.
-            Extract and verify the following information, and ensure the data is as accurate as possible:
-            {BILL_ITEMSS}
-            Provide the response as a JSON object with these fields.
-            Look at the file information carefully; do not miss the values.
-            If any information is missing or cannot be verified, set the value to null.
-            Example:
-            {{
-                "Customs Clearance Number": null,
-                "Interpol Number": "123",
-                "VIN/Chassis Number": "1HGCM82633A123456",
-                "Registration Mark": "ABC1234",
-                "Engine Number": "E1234567",
-                "Make": "Toyota",
-                "Model": "Corolla",
-                "Model Number": "2010",
-                "Colour": "Blue",
-                "Vehicle Category": "Sedan",
-                "Propelled By": "Gasoline",
-                "Net Weight": "1300 kg",
-                "GVM kg": "1500 kg",
-                "Class": "Private",
-                "Engine Capacity": "1800 cc",
-                "Seating Capacity": "5",
-                "Registration Authority": "DMV",
-                "Year Of Make": "2010",
-                "First Registration Date": "2022-01-01",
-                "Customs Clearance Number": null,
-                "Interpol Number": null
-            }}
-            """,
-        ], safety_settings=safety_settings, generation_config=generation_config)
+#     try:
+#         response = model.generate_content([
+#             f"""
+#             You are an expert in extracting and verifying information from vehicle documents.
+#             The document content (in base64) is: {file_base64}
+#             The document may be unclear or noisy. Please handle this accordingly.
+#             Extract and verify the following information, and ensure the data is as accurate as possible:
+#             {BILL_ITEMSS}
+#             Provide the response as a JSON object with these fields.
+#             Look at the file information carefully; do not miss the values.
+#             If any information is missing or cannot be verified, set the value to null.
+#             Example:
+#             {{
+#                 "Customs Clearance Number": null,
+#                 "Interpol Number": "123",
+#                 "VIN/Chassis Number": "1HGCM82633A123456",
+#                 "Registration Mark": "ABC1234",
+#                 "Engine Number": "E1234567",
+#                 "Make": "Toyota",
+#                 "Model": "Corolla",
+#                 "Model Number": "2010",
+#                 "Colour": "Blue",
+#                 "Vehicle Category": "Sedan",
+#                 "Propelled By": "Gasoline",
+#                 "Net Weight": "1300 kg",
+#                 "GVM kg": "1500 kg",
+#                 "Class": "Private",
+#                 "Engine Capacity": "1800 cc",
+#                 "Seating Capacity": "5",
+#                 "Registration Authority": "DMV",
+#                 "Year Of Make": "2010",
+#                 "First Registration Date": "2022-01-01",
+#                 "Customs Clearance Number": null,
+#                 "Interpol Number": null
+#             }}
+#             """,
+#         ], safety_settings=safety_settings, generation_config=generation_config)
 
-        response_text = response.text 
-        start_index = response_text.find('{')
-        end_index = response_text.rfind('}') + 1
+#         response_text = response.text 
+#         start_index = response_text.find('{')
+#         end_index = response_text.rfind('}') + 1
         
-        if start_index == -1 or end_index == -1:
-            raise ValueError("No JSON object found in the response.")
+#         if start_index == -1 or end_index == -1:
+#             raise ValueError("No JSON object found in the response.")
 
-        invoice_info = json.loads(response_text[start_index:end_index])
-        return invoice_info
+#         invoice_info = json.loads(response_text[start_index:end_index])
+#         return invoice_info
 
-    except Exception as e:
-        return {"error": str(e)}
+#     except Exception as e:
+#         return {"error": str(e)}
