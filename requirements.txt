@@ -2,7 +2,7 @@ google-generativeai==0.3.2
 PyMuPDF==1.23.26
 fastapi== 0.110.0
 uvicorn==0.27.1
-Pillow== 9.4.0
+Pillow== 10.4.0
 python-multipart==0.0.9
 google-ai-generativelanguage==0.4.0
 google-api-core==2.17.1

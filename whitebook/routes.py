@@ -117,7 +117,7 @@ async def parse_user_vehicle_info(file: UploadFile = File(...),):
     The text extracted via OCR is: {text_list}
     Please extract and verify the following information:
     {BILL_ITEMSS}
-    For Seating capacity, it can also contain numerical characters for example, 01 or 1 all are valid seat capacity. 
+    For Seating capacity, it can also contain numerical characters for example, 01 or 1 all are valid seating capacity. 
     Provide the response as a JSON object with these fields.
     If any information is missing or cannot be verified, set the value to null.
     example:
