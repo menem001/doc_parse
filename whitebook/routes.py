@@ -93,7 +93,7 @@ def pdf_to_pil(pdf_bytes: bytes) -> Image.Image:
     doc.close()
     return combined_img
 
-pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files (x86)\\Tesseract-OCR\\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = '/usr/bin/tesseract'
 
 
 def extract_text_from_image(image) -> list:
